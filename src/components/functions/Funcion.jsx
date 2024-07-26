@@ -28,7 +28,7 @@ const MainCommanDiv = ({
               {description2}
             </p>
           )}
-          <div className={`md:mt-[20px] mt-[10px] ${linkText === "" ? "hidden" : "block"}`}>
+          <div className={`md:mt-[20px] mt-[10px] ${linkText ? "block" : "hidden"}`}>
             <Link
               to={linkTo}
               className="bg-nextblue py-[10px] px-[35px] inline-block rounded-[15px] font-Poppins text-white"
