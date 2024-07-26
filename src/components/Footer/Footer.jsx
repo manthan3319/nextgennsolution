@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="footer py-[60px]">
-      <div className="lg:max-w-[1440px] m-auto px-[50px] ">
+    <div className="footer">
+      <div className="lg:max-w-[1440px] m-auto px-[50px] py-[60px] ">
         <div className="flex justify-between flex-wrap">
           <div className="md:w-[30%] w-[100%]">
             <img src={logo} className="w-[200px]" />
@@ -57,6 +57,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="footer_copy_right text-center py-[10px]">
+          <p className="font-Poppins text-white md:text-[19px] text-[15px]">Copyright @2022 <Link className="border-b-[1px]">NextgennSolution</Link> All rights reserved.</p>
       </div>
     </div>
   );

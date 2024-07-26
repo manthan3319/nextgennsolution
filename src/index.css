@@ -11,3 +11,12 @@
 .footer{
     background: linear-gradient(127deg, #271875, #4949dd 70%);
 }
+
+.footer_copy_right{
+    border-top: 1px solid hsla(0, 0%, 100%, .1);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    position: relative;
+    box-shadow: 0 5px 24px 6px rgba(0, 0, 0, .06);
+}

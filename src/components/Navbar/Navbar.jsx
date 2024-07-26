@@ -7,7 +7,7 @@ const Navbar = () => {
   const NavbarItems = [
     {
       id: 1,
-      path: "/home",
+      path: "/",
       name: "Home",
     },
     {
@@ -62,16 +62,19 @@ const Navbar = () => {
       <div className="md:hidden block">
         <div className="flex justify-between items-center">
           <div>
-            <button onClick={toggleDrawer} className="text-[29px] text-nextblue">
+            <img src={logo} alt="logo" className="w-[140px]" />
+          </div>
+          <div>
+            <button
+              onClick={toggleDrawer}
+              className="text-[29px] text-nextblue"
+            >
               <i class="fa fa-bars" aria-hidden="true"></i>
             </button>
           </div>
-          <div>
-            <img src={logo} alt="logo" className="w-[140px]" />
-          </div>
         </div>
 
-        <Drawer
+        <Drawer 
           open={isOpen}
           onClose={toggleDrawer}
           direction="right"
