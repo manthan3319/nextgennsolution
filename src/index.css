@@ -27,3 +27,11 @@
     padding: 10px;
     border-radius: 5px;
 }
+
+.whatshapp_img {
+    position: fixed;
+    right: -11px;
+    z-index: 99999999999;
+    bottom: -7px;
+    transform: rotate(-1deg);
+}

@@ -32,6 +32,7 @@ import aboutus1 from "../images/about-banner-2.png";
 import servicebanner from "../images/service-banner.png";
 import technologyBanner from "../images/technologyBanner.png";
 import contactUs from "../images/contactUs.gif";
+import whatsapp from "../images/whatshapp.png";
 // Export the image
 export { 
     logoicon,
@@ -66,5 +67,6 @@ export {
     aboutus1,
     servicebanner,
     technologyBanner,
-    contactUs
+    contactUs,
+    whatsapp
  };

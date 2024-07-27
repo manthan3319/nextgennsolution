@@ -9,7 +9,7 @@ const Home_abount = () => {
             </div>
 
             <div className='md:flex md:mt-[20px] items-center'>
-                <div className='md:w-[50%]'>
+                <div animation="zoomIn" className='md:w-[50%]'>
                     <img src={about_us} alt='img' className='w-[85%] m-auto'/> 
                 </div>
 

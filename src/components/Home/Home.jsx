@@ -1,7 +1,6 @@
 import React from 'react';
 import { homebenner } from '../../images/images';
 import { Link } from 'react-router-dom';
-import { fadeIn } from 'react-animations'
 const Home = () => {
   return (
     <div className='lg:max-w-[1440px] m-auto px-[50px] md:mt-[0px] mt-[100px]'>
@@ -16,9 +15,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='md:w-[50%]' fadeIn>
+            <div   className='md:w-[50%]' fadeIn>
                 <img src={homebenner} alt='img' className='w-[100%]'/>
-              
             </div>
         </div>
     </div>
