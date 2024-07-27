@@ -1,10 +1,10 @@
 import React from 'react';
 import { homebenner } from '../../images/images';
 import { Link } from 'react-router-dom';
-
+import { fadeIn } from 'react-animations'
 const Home = () => {
   return (
-    <div className='lg:max-w-[1440px] m-auto px-[50px] '>
+    <div className='lg:max-w-[1440px] m-auto px-[50px] md:mt-[0px] mt-[100px]'>
         <div className='md:flex md:flex-row md:items-center justify-between flex flex-col-reverse mt-[40px]'>
             <div className='md:w-[40%] mt-[40px]'>
                 <h3 className='md:text-[30px] font-Poppins font-medium text-[20px]'>Encourage innovation with</h3>
@@ -16,8 +16,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='md:w-[50%]'>
+            <div className='md:w-[50%]' fadeIn>
                 <img src={homebenner} alt='img' className='w-[100%]'/>
+              
             </div>
         </div>
     </div>

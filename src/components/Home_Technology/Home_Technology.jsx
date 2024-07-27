@@ -52,9 +52,9 @@ const Home_Technology = () => {
           {technologies.map((tech, index) => (
             <div
               key={index}
-              className="md:w-[15%] min-h-[100px] border-[1px] p-[10px] m-auto flex w-[41%]"
+              className="md:w-[15%] min-h-[100px] border-[1px] p-[10px] m-auto flex w-[41%] sm:w-[33%]"
             >
-              <img src={tech.src} alt={tech.alt} className="md:w-[100px] m-auto w-[100%]" />
+              <img src={tech.src} alt={tech.alt} className="md:w-[100px] m-auto w-[100%] sm:w-[100px]" />
             </div>
           ))}
         </div>
@@ -63,12 +63,12 @@ const Home_Technology = () => {
       <div className="flex md:flex-row md:mt-[70px] items-center mt-[80px] flex-col-reverse">
         <div className="md:w-[50%] flex flex-wrap gap-[50px] justify-center items-center md:mt-[0px] mt-[50px]">
           {technologies2.map((tech, index) => (
-            <div
-              key={index}
-              className="md:w-[15%] min-h-[100px] border-[1px] p-[10px] m-auto flex w-[41%]"
-            >
-              <img src={tech.src} alt={tech.alt} className="md:w-[100px] w-[100%] m-auto" />
-            </div>
+             <div
+             key={index}
+             className="md:w-[15%] min-h-[100px] border-[1px] p-[10px] m-auto flex w-[41%] sm:w-[33%]"
+           >
+             <img src={tech.src} alt={tech.alt} className="md:w-[100px] m-auto w-[100%] sm:w-[100px]" />
+           </div>
           ))}
         </div>
         <div className="md:w-[50%]">

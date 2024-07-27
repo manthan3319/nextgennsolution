@@ -10,7 +10,7 @@ const Home_project_mind = () => {
             <h1 className="font-Poppins md:text-[35px] text-white font-bold text-[30px]">
               Have a project in mind?
             </h1>
-            <p className="mt-[15px] text-white font-Poppins font-light md:w-[70%] m-auto text-[17px] w-[100%]">
+            <p className="mt-[15px] text-white font-Poppins font-light md:w-[70%] lg:w-[100%] xl:w-[70%] m-auto text-[17px] w-[100%]">
               To choose your next move, stay current with our in-depth topics,
               continuing trends, tool and technology comparisons, and newest
               concepts. Our advisers on innovation and change identify the best
